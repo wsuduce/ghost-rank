@@ -172,7 +172,7 @@ MIT License — See [LICENSE](LICENSE) file.
 ## 🙏 Acknowledgments
 
 - The LMFDB and Cremona Tables for elliptic curve data
-- GPT-4, Claude, and Gemini for collaborative analysis
+- ChatGPT, Claude, and Gemini for collaborative analysis
 
 ---
 
