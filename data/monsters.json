@@ -1,0 +1,71 @@
+{
+  "description": "The four main 'monster' curves with large |Ш| discovered via Ghost Rank",
+  "source": "LMFDB/Cremona Tables, verified December 2024",
+  "monsters": [
+    {
+      "rank": 1,
+      "label": "165066.v1",
+      "name": "Leviathan",
+      "conductor": 165066,
+      "conductor_factorization": "2 × 3 × 11 × 41 × 61",
+      "sha": 5625,
+      "sqrt_sha": 75,
+      "sha_factorization": "3² × 5⁴",
+      "diffusion": 2.27,
+      "stability": 0.0053,
+      "notes": "Current record holder for N < 500,000. Previously known in literature."
+    },
+    {
+      "rank": 2,
+      "label": "287175.n1",
+      "name": "Titan",
+      "conductor": 287175,
+      "conductor_factorization": "3 × 5² × 7 × 547",
+      "sha": 2500,
+      "sqrt_sha": 50,
+      "sha_factorization": "2² × 5⁴",
+      "diffusion": 2.06,
+      "stability": 0.0087,
+      "notes": "Has both 7 (protector) and 5 (destroyer) primes - interesting test case."
+    },
+    {
+      "rank": 3,
+      "label": "146850.cb1",
+      "name": "Behemoth",
+      "conductor": 146850,
+      "conductor_factorization": "2 × 3 × 5² × 11 × 89",
+      "sha": 2209,
+      "sqrt_sha": 47,
+      "sha_factorization": "47²",
+      "diffusion": 2.03,
+      "stability": 0.0093,
+      "notes": "Prime |Ш| = 47²"
+    },
+    {
+      "rank": 4,
+      "label": "95438.c2",
+      "name": "Original Monster",
+      "conductor": 95438,
+      "conductor_factorization": "2 × 7 × 17 × 401",
+      "sha": 676,
+      "sqrt_sha": 26,
+      "sha_factorization": "2² × 13²",
+      "diffusion": 1.71,
+      "stability": 0.0177,
+      "notes": "First monster discovered. Has 7|N (protector prime)."
+    }
+  ],
+  "anomaly": {
+    "label": "165066.d3",
+    "name": "The d3 Anomaly",
+    "conductor_base": 165066,
+    "conductor_twist": 5282112,
+    "sha_base": 1,
+    "sha_twist": 1225,
+    "sqrt_sha_twist": 35,
+    "diffusion_base": 2.50,
+    "z_score": 3.0,
+    "notes": "Base curve shows 3σ excess diffusion. Quadratic twist has |Ш| = 1225 at conductor 5,282,112 (beyond database range). This 'Ghost Breeding' phenomenon is a novel discovery."
+  }
+}
+

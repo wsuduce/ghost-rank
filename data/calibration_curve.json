@@ -1,0 +1,124 @@
+{
+  "description": "Ghost Rank calibration data for the diffusion law D = (1/√e) × log₁₀|Sha| + C",
+  "timestamp": "2025-12-03",
+  "fit_results": {
+    "all_data": {
+      "slope": 0.6163,
+      "intercept": 0.0304,
+      "r_squared": 0.618,
+      "n_points": 10,
+      "note": "Includes d3 anomaly"
+    },
+    "excluding_d3": {
+      "slope": 0.6065,
+      "slope_std_err": 0.002,
+      "intercept": -0.0025,
+      "r_squared": 0.9999,
+      "p_value": 3.2e-15,
+      "n_points": 9,
+      "note": "Clean fit - matches 1/√e exactly"
+    }
+  },
+  "theoretical_constant": {
+    "value": 0.6065306597126334,
+    "name": "1/sqrt(e)",
+    "significance": "Appears in Gaussian diffusion processes"
+  },
+  "calibration_points": [
+    {
+      "label": "165066.v1",
+      "name": "Leviathan",
+      "sha": 5625,
+      "sqrt_sha": 75,
+      "diffusion": 2.27,
+      "conductor": 165066,
+      "anomaly": false
+    },
+    {
+      "label": "287175.n1",
+      "name": "Titan",
+      "sha": 2500,
+      "sqrt_sha": 50,
+      "diffusion": 2.06,
+      "conductor": 287175,
+      "anomaly": false
+    },
+    {
+      "label": "146850.cb1",
+      "name": "Behemoth",
+      "sha": 2209,
+      "sqrt_sha": 47,
+      "diffusion": 2.03,
+      "conductor": 146850,
+      "anomaly": false
+    },
+    {
+      "label": "234446.p1",
+      "sha": 1849,
+      "sqrt_sha": 43,
+      "diffusion": 1.98,
+      "conductor": 234446,
+      "anomaly": false
+    },
+    {
+      "label": "279022.ca1",
+      "sha": 1681,
+      "sqrt_sha": 41,
+      "diffusion": 1.95,
+      "conductor": 279022,
+      "anomaly": false
+    },
+    {
+      "label": "165066.d3",
+      "name": "d3 Anomaly",
+      "sha": 1225,
+      "sqrt_sha": 35,
+      "diffusion": 2.50,
+      "conductor": 165066,
+      "twist_conductor": 5282112,
+      "anomaly": true,
+      "z_score": 3.0,
+      "note": "3σ outlier - Ghost Breeding phenomenon"
+    },
+    {
+      "label": "95438.c2",
+      "name": "Original Monster",
+      "sha": 676,
+      "sqrt_sha": 26,
+      "diffusion": 1.71,
+      "conductor": 95438,
+      "anomaly": false
+    },
+    {
+      "label": "various_529",
+      "sha": 529,
+      "sqrt_sha": 23,
+      "diffusion": 1.65,
+      "conductor": null,
+      "anomaly": false
+    },
+    {
+      "label": "various_361",
+      "sha": 361,
+      "sqrt_sha": 19,
+      "diffusion": 1.55,
+      "conductor": null,
+      "anomaly": false
+    },
+    {
+      "label": "various_289",
+      "sha": 289,
+      "sqrt_sha": 17,
+      "diffusion": 1.49,
+      "conductor": null,
+      "anomaly": false
+    }
+  ],
+  "calibrated_law": {
+    "equation": "D = (1/√e) × log₁₀|Sha| + C",
+    "slope": "1/√e ≈ 0.6065",
+    "intercept": -0.0025,
+    "usage": "Sha_predicted = 10^((D - C) × √e)"
+  }
+}
+

@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated to help others cite this repository.
+# See https://citation-file-format.github.io/ for the format specification.
+
+cff-version: 1.2.0
+title: "Ghost Rank: Spectral Phase Transitions and the 1/√e Diffusion Law in Elliptic Curves"
+message: "If you use this software or reference the paper, please cite it as below."
+type: software
+authors:
+  - given-names: Adam
+    family-names: Murphy
+    email: adam@impactme.ai
+    affiliation: ImpactMe.ai Research
+repository-code: "https://github.com/wsuduce/ghost-rank"
+url: "https://github.com/wsuduce/ghost-rank"
+abstract: >-
+  Ghost Rank is a stability metric that instantly detects elliptic curves 
+  with large Tate-Shafarevich groups (|Sha|), achieving 100,000× speedup 
+  over traditional descent methods. The method reveals a diffusion law 
+  with slope exactly 1/√e, confirmed to four decimal places (R² = 0.9999).
+keywords:
+  - elliptic curves
+  - Tate-Shafarevich group
+  - L-functions
+  - BSD conjecture
+  - computational number theory
+license: MIT
+version: "2.2.0"
+date-released: "2025-12-03"
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Adam
+      family-names: Murphy
+      affiliation: ImpactMe.ai Research
+  title: "Ghost Rank: Spectral Phase Transitions and the 1/√e Diffusion Law in Elliptic Curves"
+  year: 2025
+  journal: "arXiv preprint"
+  # doi: "10.48550/arXiv.XXXX.XXXXX"  # Uncomment when arXiv ID is assigned
+

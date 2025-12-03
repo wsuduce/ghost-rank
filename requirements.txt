@@ -1,0 +1,10 @@
+# Ghost Rank - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+numpy>=1.20.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+
+# Optional: For full |Sha| computation (requires SageMath)
+# Install SageMath separately: conda install -c conda-forge sage
+
